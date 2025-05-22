@@ -109,8 +109,8 @@ const Reservation = () => {
                   value={phone}
                   onChange={(e) => setPhone(e.target.value)}
                   required
-                  minLength={11}
-                  maxLength={11}
+                  minLength={10}
+                  maxLength={10}
                 />
               </div>
               <button type="submit">
